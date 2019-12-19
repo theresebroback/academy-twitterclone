@@ -99,7 +99,7 @@ class Feed extends React.Component {
         <div className="card-body">
            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="What's on your mind???"
                 value={message} 
-                onChange={this.handleInputChange.bind(this, 'handle')} />
+                onChange={this.handleInputChange.bind(this, 'message')} />
           </div>
           <div>
           <button onClick={this.handleSubmitTweet.bind(this)}
